@@ -1,0 +1,17 @@
+### Universidade de Brasília - Departamento de Ciências da Computação
+### Teoria e Aplicação de Grafos
+## Projeto 2
+Professor: Dibio Leandro Borges
+
+Aluno: Victor Hugo França Lisboa
+Data: 11/04/2022
+ 
+Algoritmo de Gale-Shapley para encontrar um emparelhamento estável
+
+Fontes utilizadas para o desenvolvimento deste projeto:
+- https://www.geeksforgeeks.org/stable-marriage-problem/
+
+Para a busca do emparelhamento estável no problema proposto, foi necessário criar uma lista de preferências dos projetos para que o algoritmo clássico fosse aplicável. Essa lista de preferências é ordenada pelo interesse dos alunos e pelas maiores notas. 
+
+A estratégia para encontrar tal emparelhamento baseia-se em inicialmente tentar percorrer todos os projetos adicionados em uma fila e alocando os alunos da lista de preferência para participarem desses projetos. Caso um aluno já esteja em um projeto, é feita uma verificação para decidir qual o projeto ele prefere participar. Caso um aluno troque de projeto, o projeto antigo é colocado novamente na fila e esse processo só acaba quando a fila é esvaziada.
+Dessa forma, é feito um emparelhamento máximo entre os projetos e alunos.

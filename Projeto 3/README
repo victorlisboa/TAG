@@ -1,0 +1,11 @@
+### Universidade de Brasília - Departamento de Ciências da Computação
+### Teoria e Aplicação de Grafos
+### Professor: Dibio Leandro Borges
+### Aluno: Victor Hugo França Lisboa
+### Data: 25/04/2022
+## Projeto 3
+### Modelagem de um jogo de Sudoku 9x9 como um grafo e a solução é feita utilizando algoritmo de coloração de grafos
+### Fontes utilizadas para o desenvolvimento deste projeto:
+- https://medium.com/code-science/sudoku-solver-graph-coloring-8f1b4df47072
+
+Neste projeto foi utilizada uma estratégia de coloração de grafos que consiste em uma função recursiva que colore todos os vértices do grafo tomando cuidado para nunca haverem dois vértices adjacentes de mesma coloração. O grafo usado para resolver o problema foi montado a partir da seguinte lógica: cada célula do Sudoku é considerada um vértice. Todos os vértices que estão na mesma linha, coluna e bloco são adjacentes. Dessa forma foi possível resolver utilizando esse algoritmo.
